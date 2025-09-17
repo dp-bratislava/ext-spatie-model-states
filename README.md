@@ -1,3 +1,3 @@
 # TO DO 
 
-vykonana praca na niecom
+user morph to treba nejako osetrit cez config napr
