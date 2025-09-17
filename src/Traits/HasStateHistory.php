@@ -1,8 +1,8 @@
 <?php
 
-namespace Dpb\Exensions\Traits;
+namespace Dpb\Exensions\ModelState\Traits;
 
-use App\Models\State\StateChange;
+use Dpb\Exensions\ModelState\Models\StateChange;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 
