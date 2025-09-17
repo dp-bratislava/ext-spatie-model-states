@@ -11,7 +11,7 @@ class ModelStateServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('ext-spatie-model-state')
+            ->name('ext-spatie-model-states')
             ->hasConfigFile()
             ->hasMigrations([
                 '0001_create_model_state_tables',

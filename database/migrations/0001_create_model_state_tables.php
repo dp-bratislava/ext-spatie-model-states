@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        $tablePrefix = config('ext-spatie-model-state.table_prefix');
+        $tablePrefix = config('ext-spatie-model-states.table_prefix');
 
         // model state changes
         Schema::create($tablePrefix . 'model_state_changes', function (Blueprint $table) {
@@ -41,7 +41,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        $tablePrefix = config('ext-spatie-model-state.table_prefix');
+        $tablePrefix = config('ext-spatie-model-states.table_prefix');
 
         Schema::dropIfExists($tablePrefix . 'model_state_changes');
     }
