@@ -1,6 +1,6 @@
 <?php
 
-namespace Dpb\Exensions\ModelState\Providers;
+namespace Dpb\Extension\ModelState\Providers;
 
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;

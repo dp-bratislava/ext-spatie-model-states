@@ -1,9 +1,9 @@
 <?php
 
-namespace Dpb\Exensions\ModelState\Listeners;
+namespace Dpb\Extension\ModelState\Listeners;
 
 use Spatie\ModelStates\Events\StateChanged;
-use Dpb\Exensions\ModelState\StateChange;
+use Dpb\Extension\ModelState\StateChange;
 use Illuminate\Contracts\Auth\Guard;
 
 class LogStateChangeListener

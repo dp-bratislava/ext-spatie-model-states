@@ -4,7 +4,7 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Dpb\\Exensions\\ModelState\\": "src/"
+            "Dpb\\Extension\\ModelState\\": "src/"
         }
     },
     "authors": [
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Dpb\\Exensions\\ModelState\\Providers\\ModelStateServiceProvider"
+                "Dpb\\Extension\\ModelState\\Providers\\ModelStateServiceProvider"
             ]
         }
     }
