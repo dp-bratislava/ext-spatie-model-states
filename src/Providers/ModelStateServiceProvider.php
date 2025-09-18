@@ -15,12 +15,17 @@ class ModelStateServiceProvider extends PackageServiceProvider
             ->hasConfigFile()
             ->hasMigrations([
                 '0001_create_model_state_tables',
-            ])
+            ])            
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->publishMigrations()
                     ->publishConfigFile()
                     ->askToRunMigrations();
             });
-    }    
+    }  
+    
+    public function packageRegistered() 
+    {
+        app()->register(EventServiceProvider::class);    
+    }
 }

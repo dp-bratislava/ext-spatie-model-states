@@ -26,7 +26,7 @@ class StateChange extends Model
 
     public function getTable(): string
     {
-        return config('database.table_prefix') . 'model_state_changes';
+        return config('ext-spatie-model-states.table_prefix') . 'model_state_changes';
     }
 
     public function model(): MorphTo
