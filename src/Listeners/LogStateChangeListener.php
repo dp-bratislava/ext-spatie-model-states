@@ -23,14 +23,15 @@ class LogStateChangeListener
             'model_id'   => $event->model->id,
             'from_state' => $event->initialState,
             'to_state'   => $event->finalState,
-            'user_type'    => $userType, //config('ext-spatie-model-states.user_morph_uri'),
+            'user_type'  => $userType, //config('ext-spatie-model-states.user_morph_uri'),
             'user_id'    => $this->getUserId(),
             'changed_at' => now(),
             'source'     => app()->runningInConsole() ? 'system' : 'http',
         ]);
     }
 
-    protected function getUserId() {
+    protected function getUserId()
+    {
         if (app()->runningInConsole()) {
             return 1;
         }

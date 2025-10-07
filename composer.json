@@ -1,5 +1,5 @@
 {
-    "name": "andrej-horny/ext-spatie-model-states",
+    "name": "dpb/ext-spatie-model-states",
     "type": "package",
     "license": "proprietary",
     "autoload": {
@@ -13,7 +13,8 @@
             "email": "horny.andrej@dpb.sk"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
         "laravel/framework": "^11.0 || ^12.0",
         "spatie/laravel-permission": "^6.3",
